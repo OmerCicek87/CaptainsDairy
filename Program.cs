@@ -51,7 +51,7 @@ class Program
         sw.WriteLine("Captain’s log\r");
         sw.Write("Stardate <");
         sw.Write(dateNeeded.ToString("yyyy-MM-dd"));
-        sw.Write(">\n\n");
+        sw.Write(">\n");
         sw.WriteLine(userNote);
         sw.WriteLine("\nJean-Luc Picard");
         sw.Close();
