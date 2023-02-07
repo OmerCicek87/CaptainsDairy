@@ -34,10 +34,10 @@ class Program
     private static void programTalking()
     {
         Console.WriteLine("Welcome to Jean-Luc's Journal!");
-        Thread.Sleep(000);
+        Thread.Sleep(3000);
         Console.Clear();
         Console.WriteLine("The thing you type before you write 'start' will be deleted!\n");
-        Thread.Sleep(000);
+        Thread.Sleep(3000);
         Console.Clear();
         Console.WriteLine("PLEASE WRITE 'START' BEFORE TYPING AND 'STOP' AFTER FINISHING OTHERWISE YOUR TEXT WONT BE SAVED!\n");
         Console.Write("=> ");
