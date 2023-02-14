@@ -46,7 +46,8 @@ class Program
 
     private static void forTextDocument()
     {
-        pathOfFile = @"C:\Users\omerb\OneDrive\Desktop\" + dateNeeded.ToString("yyyy-MM-dd") + ".txt";
+        string desktopWay = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+        pathOfFile = @$"{desktopWay}\" + dateNeeded.ToString("yyyy-MM-dd") + ".txt";
         StreamWriter sw = File.CreateText(pathOfFile);
         sw.WriteLine("Captain’s log\r");
         sw.Write("Stardate <");
